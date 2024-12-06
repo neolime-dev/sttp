@@ -255,7 +255,7 @@ const Handler = () => {
 
     default:
       body.style.backgroundImage = "none";
-      body.style.backgroundColor = "#191919";
+      body.style.backgroundColor = "#101010";
       body.style.color = "#d4d4d4";
       break;
     } 
@@ -311,7 +311,7 @@ const Handler = () => {
       Search.value = "";
 
       body.style.backgroundImage = "none";
-      body.style.backgroundColor = "#191919";
+      body.style.backgroundColor = "#101010";
       body.style.color = "#d4d4d4";
       Clock.style.color = "#d4d4d4";
     })

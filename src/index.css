@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
 
 :root {
-  --background: #191919;
+  --background: #101010;
   --foreground: #d4d4d4;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Geist', sans-serif;
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
@@ -16,7 +16,7 @@ body {
 }
 
 #Clock {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Geist', sans-serif;
   font-size: 88px;
   font-weight: bolder;
   top: 45%;
@@ -30,7 +30,7 @@ body {
 }
 
 #Search {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Geist', sans-serif;
   width: 98%;
   font-weight: 700;
   overflow: hidden;
