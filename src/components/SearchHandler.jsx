@@ -42,6 +42,7 @@ const SearchHandler = () => {
     },
     tw: {
       patterns: [/^tw$/, /^tw\/.*/, /^tw:/],
+
       url: (input) => {
         if (input === 'tw') return 'https://twitch.tv/';
         if (input.startsWith('tw:')) return `https://twitch.tv/search?term=${encodeURIComponent(input.slice(3))}`;
@@ -66,6 +67,7 @@ const SearchHandler = () => {
     },
     tr: {
       patterns: [/^tr$/, /^tr\/.*/, /^tr:/],
+
       url: (input) => {
         if (input === 'tr') return 'https://translate.google.com/';
         if (input.startsWith('tr:')) return `https://translate.google.com/?text=${encodeURIComponent(input.slice(3))}`;
